@@ -34,7 +34,7 @@ function FreelancePage() {
   return (
     <motion.div variants={myVariant} initial="hidden" animate='visible' exit='exit' className='h-screen'>
         <Navbar/>
-        <div className='h-full bg-black'>
+        <div className='h-full bg-black text-white'>
         <FreelanceMid/>
         </div>
     </motion.div>

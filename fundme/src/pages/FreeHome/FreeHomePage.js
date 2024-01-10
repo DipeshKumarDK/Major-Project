@@ -209,7 +209,7 @@ function FreeHomePage() {
 
 
   return (
-    <motion.div variants={myVariant} initial="hidden" animate='visible' exit='exit' className="max-h-screen overflow-y-scroll no-scrollbar bg-[#2b2828]">
+    <motion.div variants={myVariant} initial="hidden" animate='visible' exit='exit' className="max-h-screen overflow-y-scroll no-scrollbar bg-[#2b2828] text-white">
         <div style={{ position: "relative" }}>
         <canvas ref={canvasRef}></canvas>
         <div className="max-h-screen overflow-y-scroll no-scrollbar" style={{ position: "absolute", top: "0px" }}>

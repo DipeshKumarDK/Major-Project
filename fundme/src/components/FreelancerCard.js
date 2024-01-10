@@ -20,7 +20,7 @@ function FreelancerCard({title,desc,rating,image, pId}) {
 
   return (
     <div onClick={Nav} to="/freelancer" className="w-full flex sm:flex-row flex-col mb-3 z-20 cursor-pointer border-[2px] border-slate-500">
-      <img className="sm:w-1/3 w-full min-h-72" src={image===""?image:pic} alt="" />
+      <img className="sm:w-1/3 w-full min-h-72" src={pic||image} alt="" />
       <div className="pl-6 pr-6 sm:w-1/2 w-full flex flex-col justify-center">
         <div className="sm:pt-2 pt-4 sm:pb-2 pb-1">
         <h2 className="text-xl text-blue-100">{title}</h2>

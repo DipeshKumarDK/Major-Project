@@ -33,7 +33,7 @@ function FreeAllFreelancers() {
   }
 
   return (
-    <motion.div variants={myVariant} initial="hidden" animate='visible' exit='exit'>
+    <motion.div variants={myVariant} initial="hidden" animate='visible' exit='exit' className='text-white'>
         <Navbar/>
         <AllFreeMid/>
         <Footer/>

@@ -33,7 +33,7 @@ const CreateCampCom = () => {
   }
 
   return (
-    <motion.div variants={myVariant} initial="hidden" animate='visible' exit='exit' className="">
+    <motion.div variants={myVariant} initial="hidden" animate='visible' exit='exit' className="text-white">
       <Navbar/>
        <CreateResumeCom/>
        <Footer/>

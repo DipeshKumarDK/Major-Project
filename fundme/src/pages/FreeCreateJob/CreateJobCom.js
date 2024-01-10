@@ -92,7 +92,7 @@ const CreateJobCom = () => {
         form.linkedIn,
         form.comapny_address,
         form.company_desc,
-        form.image[0],
+        form.image,
         myUser?._id,
         categoryLocation
       ],
